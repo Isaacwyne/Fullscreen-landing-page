@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-primary: #926239;
+}
+
+body {
+    color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#main {
+    background-image: url(/img/wildlife.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#main p {
+    font-size: 20px;
+    padding: 0 1.2rem;
+}
+
+#main .btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: var(--clr-primary) 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#main .btn:hover {
+    background-color: var(--clr-primary);
+}
